@@ -11,7 +11,7 @@ Caesar's Cipher - .fromCharCode is fussy and a pain, also the wiki entry is inco
 
 **Link to work:** [Where do I Belong](https://www.freecodecamp.com/challenges/where-do-i-belong#?solution=%0Afunction%20getIndexToIns(arr%2C%20num)%20%7B%0A%20%20%2F%2F%20Find%20my%20place%20in%20this%20sorted%20array.%0A%20%20arr.sort(function(a%2C%20b)%20%7B%0A%20%20%20%20return%20a%20-%20b%3B%0A%20%20%7D)%3B%0A%20%20%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(num%20%3C%3D%20arr%5Bi%5D)%20%7B%0A%20%20%20%20%20%20return%20i%3B%0A%20%20%20%20%7D%20%20%20%20%0A%20%20%7D%0A%20%20%0A%20%20return%20arr.length%3B%0A%7D%0A%0AgetIndexToIns(%5B2%2C%205%2C%2010%5D%2C%2015)%3B%0A)
 
-### Day 2: January 01, 2017
+### Day 2: January 02, 2017
 
 **Today's Progress:** Continued 'Caesars Cipher', watched some of the 'Cryptography I' course and did some of SoloLearn's JS course.
 
